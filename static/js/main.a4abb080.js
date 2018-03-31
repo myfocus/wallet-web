@@ -22898,7 +22898,7 @@ function deserializeTransaction(tx) {
     switch (contract.getType()) {
 
       case contractType .ACCOUNTCREATECONTRACT: {
-        contractType = contractType .ACCOUNTCREATECONTRACT;
+        // contractType = contractType .ACCOUNTCREATECONTRACT;
 
         let obje = any.unpack(AccountCreateContract.deserializeBinary, "protocol.AccountCreateContract");
 
@@ -22906,7 +22906,7 @@ function deserializeTransaction(tx) {
       }
 
       case contractType .TRANSFERCONTRACT: {
-        let contractType = contractType .TRANSFERCONTRACT;
+        // let contractType = contractType .TRANSFERCONTRACT;
 
         let obje = any.unpack(TransferContract.deserializeBinary, "protocol.TransferContract");
 
@@ -48370,4 +48370,4 @@ registerValidSW(swUrl);}}).catch(function(){console.log('No internet connection 
 
 /***/ })
 /******/ ]);
-//# sourceMappingURL=main.5f60f3f6.js.map
+//# sourceMappingURL=main.a4abb080.js.map
